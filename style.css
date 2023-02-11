@@ -1,0 +1,355 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/MainPage/images/background.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 150px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition:0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 62px;
+}
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+.subjects{
+    width: 86%;
+    margin: auto;
+    color: #fff;
+    text-align: start;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+    
+#Maths{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/MainPage/images/Maths.JPG);
+}
+#Geography{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/MainPage/images/Geography.JPG);
+}
+#History{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/MainPage/images/History.JPG);
+}
+
+.subjects .title{
+    display: flex;
+    flex-direction: column;
+}
+
+.maths-btn-group .Add_button{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 100px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    display: block;
+
+}
+
+.maths-btn-group .Sub_button{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 100px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    display: block;
+
+}
+
+.maths-btn-group .Multi_button{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 100px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    display: block;
+
+}
+
+.maths-btn-group .Div_button{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 100px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    display: block;
+
+}
+
+.geography-btn-group .Add_button{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 100px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+
+.geography-btn-group .Sub_button{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 100px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+
+.geography-btn-group .Multi_button{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 100px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+
+.geography-btn-group .Div_button{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 100px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+
+.history-btn-group .cold_button{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 100px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+
+.history-btn-group .WW1_button{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 100px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+
+.history-btn-group .WW2_button{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 100px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+
+.history-btn-group .IR_button{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 100px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+
+/*  ============================== SUBJECT THEORY =================== */
+
+/* ===== Subject theory section ====== */
+.subject-theory {
+    min-height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/MainPage/images/theory2.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+/* ===== Subject theory header and container ==== */
+
+.subject-theory {
+    margin: auto;
+
+
+}
+
+.subject-theory h2 {
+    color: #fff;
+    text-align: center;
+
+}
+
+
+
+.subject-theory__container {
+    display: flex;
+    
+}
+
+/* ===== History box ===== */
+.subject_history {
+    background: transparent;
+    text-align: center;
+    border: 1px solid transparent;
+    
+}
+
+.subject_history:hover {
+    background: #5E7E8B;
+    border-color: #fff;
+}
+
+/* ===== Geography Box ==== */
+.subject_geo {
+    background: transparent;
+    text-align: center;
+    border: 1px solid transparent;
+    
+}
+.subject_geo:hover {
+    background: #fff;
+    border-color: #fff;
+}
+
+
+.subject__info {
+    padding: 2rem;
+}
+
+.subject__info p {
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.subject__info_geo {
+    padding: 2rem;
+}
+
+.subject__info_geo p{
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.btn.btn-primary{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    width: 100px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
