@@ -1,0 +1,153 @@
+*:focus {
+    outline: none;
+  }
+
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/MainPage/images/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form, .content{
+	width: 400px;
+    height: auto;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+	position: relative;
+    top: -50px;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+}
+
+form h2{
+	opacity: 1;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+form label{
+	display: block;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+
+form input, form textarea{
+	opacity: 1;
+    width: 80%;
+    height: 5px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: #fff;
+    padding: 15px;
+    transition: .5s;
+}
+
+form select{
+	display: block;
+	width:  100%;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 16px;
+	border:  thin solid #e4e4e4;
+	background-color: white;
+	color: #555;
+}
+
+form input:focus
+{
+	outline: none;
+	border: thin solid coral;
+}
+
+form textarea{
+	min-height: 150px;
+}
+
+form input::placeholder{
+	font-size: 16px;
+}
+
+form button{
+	opacity: 1;
+    width: 50px;
+    height: 20px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: #fff;
+    padding: 2px;
+    transition: .5s;
+}
+
+form button:active{
+	background-color: green;
+}
+
+.error{
+	margin-top: 30px;
+	color: #af0c0c;
+}
+
+.success{
+	margin-top: 30px;
+	color: green;
+}
+
+.content header a{
+	opacity: 1;
+    width: 50px;
+    height: 20px;
+    display: flex;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: #fff;
+    padding: 2px;
+    transition: .5s;
+}
+
+ .content header{
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+	 border-bottom: thin solid #e4e4e4;
+	 padding-bottom: 30px;
+ }
+
+ .content header button{
+    opacity: 1;
+    width: 50px;
+    height: 20px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: #fff;
+    padding: 2px;
+    transition: .5s;
+
+ }
+.content main{
+	margin-top: 50px;
+}
+
